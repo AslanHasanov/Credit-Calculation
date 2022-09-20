@@ -8,7 +8,7 @@ btn.onclick=()=>{
 
     var percent=(x*z)/100
     var mounth=(Number(x)+Number(percent))/y
-    document.getElementById("inference").innerHTML=mounth
+    document.getElementById("inference").innerHTML=mounth.toFixed(2)
 }
 
 var mo1=document.getElementById("amount")
